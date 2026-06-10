@@ -1,0 +1,41 @@
+Level 1: Basic Linux Commands
+1. Create a directory called linux_practice in your home directory
+2. Inside it, create 5 empty files: file1.txt to file5.txt
+3. Write your name and today’s date into file1.txt
+4. Display the content of file1.txt using cat and less
+5. Copy file1.txt to backup_file1.txt
+6. Rename file2.txt to data.txt
+7. Delete file5.txt
+
+Level 2: File Permissions & Ownership
+8. Check permissions of all files using ls -l
+9. Change permission of data.txt to rw-r-----
+10. Make file3.txt executable
+11. Change ownership of file4.txt to another user (if available)
+12. Explain the difference between r, w, x permissions
+
+Level 3: Searching & Viewing Files
+13. Search for the word Linux in all .txt files using grep
+14. Count number of lines, words, and characters in file1.txt
+15. Display last 10 lines of /var/log/messages or /var/log/syslog
+16. Find all .txt files inside linux_practice
+
+Level 4: Process & System Monitoring
+17. List all running processes
+18. Find the PID of sshd or systemd
+19. Kill a process using kill command
+20. Check CPU and memory usage
+21. Display disk usage using df and du
+
+Level 5: Package Management
+22. Install tree package
+23. Remove tree package
+24. Check installed version of git
+25. List all installed packages
+
+Level 6: Networking Basics
+26. Check IP address of the system
+27. Test connectivity to google.com
+28. Display open ports
+29. Check DNS configuration
+30. Download a file using wget or curl
