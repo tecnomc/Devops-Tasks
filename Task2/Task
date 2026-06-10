@@ -1,0 +1,107 @@
+TASKS
+TASK 1. Create a "mindcircuit" directory under the "opt" directory. Inside the mindcircuit 
+directory, create dirl dir2, and dir3 directories.
+TASK 2. Create filel, file2 and file3 in dirl, dir2, and dir3 directory respectively.
+TASK 3. In File1, redirect the default date of the system. Then, redirect the Os name also in file1 
+keeping the previous content intact.
+TASK 4. Fetch the total number of characters in the top 15 entries of the /etc/passwd file and 
+redirect it to file2
+TASK 5. Copy the content of file2 in file3.
+TASK 6. move file3 from dir3 directory to dirl directory.
+TASK 7. Delete the dir3 directory and file2 as we already have the content in file3 which is now 
+present in dirl directory. 
+TASK 8. Create a file4 in dirl directory. Add some data into it. Ensure that the data is preserved 
+even if file4 is deleted.
+TASK 9. Create a file5 in dir1 directory and redirect all the entries of /etc/passwd file5 .
+ Also, append the last 5 entrires of the /etc/shadow file.
+TASK 10. Create a file6 in dirl directory with the below data into it.
+Cook:Book–Took
+High:Why–Try 
+spare:care-mare
+ Use the cut command in such a way that only the below data is printed
+Took
+Try
+mare
+=====================================================================
+once you complete above questions manually on linux server, Now try to automate above tasks 
+using JENKINS EXECUTE SHELL 
+================================================
+TASK -11
+# Create two dirctories--- project-dir and Jenkins-dir
+# Enters the project folder
+# Creates a new directory named Document
+# Creates the notes.txt file inside the Documents
+#Adds content to the file, 
+# Displays the content of the notes.txt file
+# Deletes the notes.txt file
+# Moves up one directory level
+# Deletes the Jenkins directory and its contents 
+Try to automate the above TASK using Jenkins. 
+=====================================================================
+TASK -12
+Create a Jenkins Job to print the statement as 
+The print statement should be hey, "your_name" don’t forget to terminate the Instance. 
+Note : to be used parameters & username shouldn’t be hardcoded.
+Whoever running the Job it should print their username.
+Tip: This can be achievable using Parameters.
+=====================================================================
+TASK 13
+Subject: Request for Installation of Jenkins Server on Ubuntu and User Access
+Dear DevOps Team,
+I'm reaching out to request your assistance in setting up a Jenkins server on an Ubuntu 
+environment and providing user access for our team.
+Installation of Jenkins on Ubuntu Server: We have a project that requires the implementation of 
+CI/CD practices. To facilitate this, we would greatly appreciate it if you could install Jenkins on 
+an Ubuntu server. We've chosen Ubuntu due to its compatibility and ease of maintenance.
+Details for Jenkins Server Installation:
+• Operating System: Ubuntu
+• Ensure that the latest stable version of Jenkins is installed.
+• Please configure Jenkins to run as a service so that it starts automatically upon server 
+boot.
+User Access for Jenkins: As part of our team, we need access to the Jenkins server to create and 
+manage Jobs. Kindly create user accounts for our team members and grant appropriate 
+permissions to access and utilize Jenkins effectively.
+Contact Information: Should you require any further details or have any queries regarding this 
+request, please feel free to reach out to me.
+We truly appreciate your support in setting up the Jenkins server, and we're looking forward to 
+utilizing this valuable tool for our projects.
+Thank you very much for your attention to this matter.
+=====================================================================
+TASK-14:
+Subject: Request to Implement CI/CD Using Jenkins and Tomcat 9
+Dear DevOps Team,
+I am writing to request your support in setting up a Continuous Integration/Continuous 
+Deployment (CI/CD) using Jenkins and Tomcat 9 for our project.
+**Project Overview:**
+We aim to streamline our software deployment process by implementing a CI/CD. Our goal is to 
+automate the build and deployment of our web application hosted on Tomcat 9. 
+The workflow involves separate servers for Jenkins and Tomcat:
+- Jenkins Server: Ubuntu Server/AWS Linux Machine
+- Tomcat Server: Separate machine hosting Tomcat 9
+**Requirements:**
+1. Configure Jenkins on the Ubuntu Server/AWS Linux Machine.
+2. Set up the Jenkins CI/CD to:
+ - Fetch the source code from our version control system.
+ - Build the code using Maven.
+ - Generate a deployable WAR file.
+ - Deploy the WAR file to the Tomcat 9 server.
+3. **Use the below code to build**
+https://github.com/devopstraininghub/mindcircuit.git
+**Process Overview:**
+We anticipate the CI/CD process to involve the following steps:
+- Jenkins fetches the code from our repository (e.g., GitHub).
+- Jenkins runs build processes using Maven.
+- Upon successful build, Jenkins generates a WAR file.
+- Jenkins deploys this WAR file to the Tomcat 9 server for production/staging.
+**Project Timelines:**
+We aim to implement this CI/CD at the earliest feasible timeline. However, we understand the 
+complexity and coordination required for such setups.
+Please provide an estimated timeline for the setup and any additional information or 
+requirements from our end to facilitate this process.
+**Collaboration and Communication:**
+We are committed to collaborating and providing any necessary support to ensure the successful 
+implementation of this CI/CD . 
+Kindly let us know how we can assist in the process and if there are any specific details or 
+configurations required from our side.
+Your expertise in setting up this CI/CD will significantly benefit our project by enhancing our 
+deployment processes. We greatly appreciate your efforts in this initiative.
