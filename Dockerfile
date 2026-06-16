@@ -82,12 +82,17 @@ CMD ["nginx", "-g", "daemon off;"]
 FROM node:24-alpine
 
 # Create app user and group
+-S → Creates a system user (no password, no home directory login).
+-G app → Assigns the user to the app group.
+Last app → Username
 RUN addgroup app && adduser -S -G app app
 
 WORKDIR /usr/src/app
 
 # Copy package files and install dependencies as root
 COPY package*.json ./
+
+# Skips development dependencies
 RUN npm ci --omit=dev
 
 # Copy rest of the app
